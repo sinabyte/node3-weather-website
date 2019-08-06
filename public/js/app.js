@@ -15,7 +15,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     e.preventDefault()
 
-    url = encodeURI('http://127.0.0.1:3000/weather?address=' + search.value)
+    url = encodeURI('/weather?address=' + search.value)
 
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
